@@ -1,4 +1,4 @@
-# Real-time Speech AI Model
+# Real-time Speech AI Model  "RAAMU"
 
 A high-performance, multilingual real-time speech AI system built with Python, TypeScript, and C++.
 
