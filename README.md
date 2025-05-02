@@ -25,6 +25,63 @@ This project implements a cutting-edge, real-time speech AI pipeline with:
 5. **Web Interface (TypeScript)**: 
    - Responsive user interaction
    - Cross-platform compatibility
+# 🧠 RAAMU – Real-Time Multilingual Speech AI System
+
+RAAMU is a cutting-edge, low-latency AI-powered multilingual speech interface. It integrates speech recognition, natural language understanding, and real-time response synthesis – all packed into a modular and cross-platform framework.
+
+---
+
+## 🚀 Features
+
+- 🌍 **Multilingual Speech Recognition**
+- 🧠 **Natural Language Understanding**
+- 💬 **Contextual Response Generation**
+- 🔊 **Real-Time Speech Synthesis**
+- ⚡ **<200ms End-to-End Latency**
+- 🌐 **Web + Mobile Browser Support**
+- 🧩 **Modular Architecture**
+- 🤖 **Auto Language Detection**
+- 🎯 **Streaming Inference**
+
+---
+
+## 🧱 System Architecture
+
+| Component                | Language  | Description                              |
+|-------------------------|-----------|------------------------------------------|
+| 🎙️ Audio Module         | C++       | Low-latency audio capture and preprocessing |
+| 🗣️ Speech Recognition    | Python    | Multilingual deep-learning-based ASR     |
+| 🧠 NLP Engine            | Python    | Intent detection and semantic parsing    |
+| 💡 Response Generator   | Python    | Context-aware reply creation             |
+| 🌐 Web Interface        | TypeScript| Real-time browser-based UI               |
+
+---
+
+## 🧰 Prerequisites
+
+- Python 3.10+
+- Node.js 18+
+- C++17 compatible compiler
+- CUDA-compatible GPU (for fast inference)
+- OS: Ubuntu (tested), Mac (limited support)
+
+---
+
+## ⚙️ Quick Start
+
+### 1. 🛠️ System Dependencies
+
+```bash
+sudo apt-get update
+sudo apt-get install -y \
+    portaudio19-dev \
+    libfftw3-dev \
+    build-essential \
+    cmake \
+    python3-pip \
+    nodejs \
+    npm
+
 
 ## Key Features
 - Sub-200ms latency from speech to response
