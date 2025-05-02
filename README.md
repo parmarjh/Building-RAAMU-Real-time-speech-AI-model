@@ -112,7 +112,7 @@ sudo apt-get install -y \
     npm
 
 # Clone the repository
-git clone https://github.com/yourusername/multilingual-speech-ai.git
+git clone https://github.com/parmarjh/multilingual-speech-ai.git
 cd multilingual-speech-ai
 ```
 
